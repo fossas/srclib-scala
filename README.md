@@ -1,4 +1,5 @@
 # srclib-scala [![Build Status](https://travis-ci.org/sourcegraph/srclib-scala.png?branch=master)](https://travis-ci.org/sourcegraph/srclib-scala)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffossas%2Fsrclib-scala.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffossas%2Fsrclib-scala?ref=badge_shield)
 
 Work-in-progress [srclib](http://srclib.org) toolchain for
 [Scala](http://scala-lang.org/) source code and dependency analysis.
@@ -68,3 +69,7 @@ next time, or it'll complain.
 1. [ ] Create a real Scala grapher and make `.bin/srclib-scala graph` call it and pass-through its JSON output.
 1. [ ] Make an actual pants-enabled test repo ([scala-pants-sample](https://github.com/sgtest/scala-pants-sample) only has a Scala and BUILD file, not a full pants installation).
 1. [ ] Add a dep resolver (can use code from srclib-java, which can determine the group/artifact given a JAR filename and can attempt to look up the original VCS repository clone URL for a given group/artifact).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffossas%2Fsrclib-scala.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffossas%2Fsrclib-scala?ref=badge_large)
